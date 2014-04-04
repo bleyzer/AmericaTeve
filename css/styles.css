@@ -1,0 +1,128 @@
+body{
+    background-color: #ededed !important;
+}
+
+.nav-bar{
+    height: 20px;
+    border-bottom: 3px solid darkred !important;
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #D97176),
+    color-stop(0.5, #C20202)
+);
+background-image: -o-linear-gradient(bottom, #D97176 0%, #C20202 50%);
+background-image: -moz-linear-gradient(bottom, #D97176 0%, #C20202 50%);
+background-image: -webkit-linear-gradient(bottom, #D97176 0%, #C20202 50%);
+background-image: -ms-linear-gradient(bottom, #D97176 0%, #C20202 50%);
+background-image: linear-gradient(to bottom, #D97176 0%, #C20202 50%) !important;
+}
+
+.toggle-btn{
+    border: 0 !important;
+    background-image: url(../images/menu.png) !important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    border-radius: 0 !important;
+    float: left !important;
+    margin-left: 15px;
+    margin-top: 15px !important;
+}
+
+.spacing{
+    height: 10px;
+}
+
+.america{
+    font-family: Verdana !important; 
+    font-size: 38px !important;
+    color: white !important;
+    margin-left: -25px;
+    margin-top: -8px
+}
+
+.redes{
+    float: right;
+    margin-right: 2%
+}
+
+.redes img{
+    width: 45px;
+    height: 45px;
+    margin-top: 5px
+}
+
+.news{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.news h2 p{
+    font-family: arial;
+    color: #2f2f2f;
+    text-align: justify;
+}
+
+.btn-neutral{
+    background-color: #ffffff !important;
+    border: 1px solid rgba(0,0,0,0.3) !important;
+    font-size: 17px !important;
+    margin-top: -5px
+}
+
+.information{
+    padding: 0 15px 15px 15px
+}
+
+.readMore{
+    margin-top: -5px;
+}
+
+.readMore a{
+    margin-left: 15px;
+    color: black;
+}
+
+.date{
+    font-size: 100% !important
+}
+
+.footer-new span{
+    font-family: arial;
+    color: #666666;
+}
+
+.bordered{
+    border-top: 9px solid #580000;
+}
+
+.null-padding-rl{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.nav-bar-footer{
+    background-color: #A80000;
+}
+
+.nav-footer li,.nav-footer li a{
+    padding:5px;    
+    font-size: 28px;
+    color:white;
+    font-weight: bolder;
+    text-align: right;
+}
+.rights{
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    line-height: 1em
+}
+
+.height-responsive{
+        height: 350px;
+} 
+
